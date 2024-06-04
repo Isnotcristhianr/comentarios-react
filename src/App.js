@@ -9,8 +9,10 @@ function App() {
       <div className="cont-main">
         <h1>Testimonios sobre de IsnotCristhianr: </h1>
       </div>
+        <h3>Desliza para visualizar</h3>
       <Testimonio
         img="emma"
+        altname="img emma"
         nombre="Emma"
         pais="Mexico"
         cargo="Desarrolladora"
@@ -20,6 +22,7 @@ function App() {
 
       <Testimonio
         img="sara"
+        altname="img sara"
         nombre="Sara"
         pais="Colombia"
         cargo="Desarrollador"
@@ -29,6 +32,7 @@ function App() {
 
       <Testimonio
         img="shawn"
+        altname="img shawn"
         nombre="Shawn"
         pais="Canada"
         cargo="Desarrollador"
