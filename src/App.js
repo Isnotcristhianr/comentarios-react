@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+import "./App.css";
+//testimonio componente
+import Testimonio from "./components/Testimonio";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="cont-main">
+        <h1>Testimonios sobre de IsnotCristhianr: </h1>
+      </div>
+      <Testimonio
+        img="emma"
+        nombre="Emma"
+        pais="Mexico"
+        cargo="Desarrolladora"
+        empresa="Google"
+        testimonio="IsnotCristhianr es un excelente desarrollador, siempre cumple con los tiempos de entrega y tiene un excelente trabajo en equipo."
+      />
+
+      <Testimonio
+        img="sara"
+        nombre="Sara"
+        pais="Colombia"
+        cargo="Desarrollador"
+        empresa="Facebook"
+        testimonio="IsnotCristhianr es un desarrollador muy creativo, siempre tiene ideas innovadoras y es muy comprometido con su trabajo."
+      />
+
+      <Testimonio
+        img="shawn"
+        nombre="Shawn"
+        pais="Canada"
+        cargo="Desarrollador"
+        empresa="Amazon"
+        testimonio="IsnotCristhianr es un desarrollador muy proactivo, siempre esta dispuesto a ayudar a sus compañeros y tiene un excelente manejo de las tecnologias."
+      />
     </div>
   );
 }
